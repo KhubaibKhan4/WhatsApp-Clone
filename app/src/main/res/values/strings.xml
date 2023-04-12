@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WhatsAppClone</string>
+
+    <!-- strings.xml -->
+    <string name="welcome_to_">Welcome to WhatsApp</string>
+    <!-- strings.xml -->
+    <string name="read_our_pr">Read our Privacy Policy. Tap \u00E2\u0080\u009CAgree &amp; Continue\u00E2\u0080\u009D to accept the Terms of Service.</string>
+    <string name="frome_faceb">frome\nFACEBOOK</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

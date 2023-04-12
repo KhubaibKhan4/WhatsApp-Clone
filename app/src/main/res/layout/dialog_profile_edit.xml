@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/baseline_person_24"
+        android:id="@+id/profile_image"/>
+
+    <EditText
+        android:id="@+id/edtUsername"
+        android:layout_width="340dp"
+        android:layout_below="@+id/profile_image"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter Username" />
+
+    <EditText
+        android:id="@+id/edtFullName"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtUsername"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:hint="Enter FullName" />
+
+    <EditText
+        android:id="@+id/edtGender"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtFullName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Gender" />
+
+    <TextView
+        android:id="@+id/dateselect"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtGender"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Select Date of Brith"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dateselect"
+        android:layout_marginTop="10dp"
+        android:calendarTextColor="@color/green"
+        android:layout_centerHorizontal="true"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:minDate="10" />
+
+    <Button
+        android:id="@+id/updateBtn"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/datePicker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/green"
+        android:text="Update" />
+
+
+</RelativeLayout>

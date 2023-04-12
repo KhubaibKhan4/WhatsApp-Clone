@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_chat"
+        android:icon="@drawable/baseline_chat_24"
+        android:iconTint="@color/green"
+        android:title="Chat" />
+    <item
+        android:id="@+id/nav_stories"
+        android:icon="@drawable/baseline_history_toggle_off_24"
+        android:iconTint="@color/green"
+        android:title="Stories" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/baseline_person_24"
+        android:iconTint="@color/green"
+        android:title="Profile" />
+</menu>

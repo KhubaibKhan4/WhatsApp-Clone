@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:id="@+id/container_users"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        android:layout_marginTop="5dp"
+        app:cardMaxElevation="20dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/chat_profile"
+            android:layout_marginLeft="2dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/logo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:id="@+id/chat_username"
+            android:layout_marginRight="55dp"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Online"
+            android:id="@+id/chat_status"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center_vertical|end"/>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
